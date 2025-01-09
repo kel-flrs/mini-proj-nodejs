@@ -121,3 +121,11 @@ Before testing the Find Treasures Endpoint, do these steps first:
 2. **Port conflicts** - check if your MySQL Server instance is running on your local machine. If running, stop it for a while to avoid conflict with Docker
 3. **Database changes is not reflecting** - enter docker-compose down -v to to reset the environment and start with a fresh state or completely remove all Docker containers and images
 4. **Container name is already in use error in Docker build** - remove all Docker containers and images
+
+## Reminder
+**Always run these commands whenever you stop and rerun Docker containers to prevent most of the database build errors**
+```bash
+docker-compose down -v
+docker-compose pull
+docker-compose up --build
+```
