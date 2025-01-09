@@ -27,7 +27,7 @@ Before testing the Find Treasures Endpoint, do these steps first:
 3. In Find Treasures Endpoint, go to Authorization tab, set Type to Bearer Token and paste the token on the field
 4. You can now test the Find Treasures Endpoint
 
-### Login Endpoint
+### Login Endpoint (Bonus Endpoint)
 ### URL: /api/auth/login
 
 ### Sample POST request body
