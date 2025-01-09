@@ -6,7 +6,7 @@
 
 1. **Clone the Repository**
 
-2. **Create a .env file in the root directory and copy env variables from env.example to your .env file**
+2. **Create a .env file in the root directory and copy env variables from env.example and paste it to your .env file**
 
 3. **Start your Docker engine through Docker Desktop (recommended)**
 
