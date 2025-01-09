@@ -120,3 +120,4 @@ Before testing the Find Treasures Endpoint, do these steps first:
 1. **Service is unhealthy error in Docker** - prune your Docker images or completely remove all Docker containers and images
 2. **Port conflicts** - check if your MySQL Server instance is running on your local machine. If running, stop it for a while to avoid conflict with Docker
 3. **Database changes is not reflecting** - enter docker-compose down -v to to reset the environment and start with a fresh state or completely remove all Docker containers and images
+4. **Container name is already in use error in Docker build** - remove all Docker containers and images
